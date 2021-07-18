@@ -4,6 +4,6 @@ import router from './router'
 
 import 'material-icons/iconfont/material-icons.css';
 
-import '@/assets/index.css'
+import './tailwind.css'
 
 createApp(App).use(router).mount('#app')

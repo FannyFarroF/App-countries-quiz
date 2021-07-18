@@ -8,11 +8,13 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://goofy-booth-521c5a.netlify.app/
+">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/FannyFarroF/App-countries-quiz.git
+">
       Solution
     </a>
     <span> | </span>
@@ -87,5 +89,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
+- Website [your-website.com](https://app.netlify.com/sites/serene-leakey-d3eca5)
 - GitHub [@your-username](https://github.com/FannyFarroF/)

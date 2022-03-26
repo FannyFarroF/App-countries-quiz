@@ -139,7 +139,7 @@
       getBand(value) {
         const options = {
           method: "GET",
-          url: `https://restcountries.eu/rest/v2/capital/${value.replace(
+          url: `https://restcountries.com/v2/capital/${value.replace(
             /['"]+/g,
             ""
           )}`,
@@ -149,10 +149,7 @@
           .request(options)
           .then((response) => {
             let data = response.data;
-
             this.urlBan = data[0].flag;
-
-            console.log("IMG:", this.urlBan);
           })
           .catch(function(error) {
             console.error(error);
@@ -161,7 +158,7 @@
       getData() {
         const options = {
           method: "GET",
-          url: "https://restcountries.eu/rest/v2/all",
+          url: "https://restcountries.com/v2/all",
         };
 
         axios
